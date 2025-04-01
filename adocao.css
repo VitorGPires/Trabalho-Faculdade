@@ -1,0 +1,80 @@
+.adocao-content {
+  position: relative; /* Troquei para relative para evitar o uso de absolute */
+  top: 200px;
+  left: 631px;
+  width: 900px;
+}
+
+.adocao-content h2 {
+  color: #e6e6e6;
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.pets-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Garantir 2 colunas na grid */
+  gap: 20px;
+}
+
+.cat {
+  margin-top: 100px; 
+}
+
+.pet-card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.pet-card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.pet-card h3 {
+  color: #e6e6e6;
+  font-family: "Inter", Helvetica;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.pet-card p {
+  color: #e6e6e6;
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.adotar-btn {
+  background-color: #c68e00;
+  color: #081e3d;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.adotar-btn:hover {
+  background-color: #e6a700;
+}
+
+.desktop .images-photoroom {
+  position: absolute;
+  width: 86px;
+  height: 84px;
+  top: -48px;
+  left: -100px;
+  object-fit: cover;
+  
+}

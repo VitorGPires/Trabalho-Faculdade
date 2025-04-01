@@ -1,0 +1,223 @@
+.desktop {
+    background-color: #081e3d;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .overlap-wrapper {
+    background-color: #081e3d;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+  }
+  
+  .desktop .overlap {
+    position: relative;
+    width: 2573px;
+    height: 1490px;
+    top: -131px;
+    left: -258px;
+  }
+  
+  .desktop .header-bar {
+    position: absolute;
+    width: 1920px;
+    height: 167px;
+    top: 132px;
+    left: 258px;
+    background-color: #081e3d;
+  }
+  
+  .desktop .background {
+    position: absolute;
+    width: 735px;
+    height: 1079px;
+    top: 132px;
+    left: 258px;
+  }
+  
+  .desktop .gradient {
+    position: absolute;
+    width: 1173px;
+    height: 962px;
+    top: 264px;
+    left: 0;
+  }
+  
+  .desktop .png-transparent-dog {
+    position: absolute;
+    width: 915px;
+    height: 947px;
+    top: 0;
+    left: 258px;
+    object-fit: cover;
+  }
+  
+  .desktop .header-text {
+    position: relative;
+    width: 1072px;
+    height: 58px;
+    top: 196px;
+    left: 578px;
+    z-index: 10; /* Ajuste o valor conforme necessário */
+  }
+  
+  .desktop .logo {
+    position: absolute;
+    width: 211px;
+    height: 58px;
+    top: 0;
+    left: 0;
+  }
+  
+  .desktop .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-header {
+    position: absolute;
+    width: 304px;
+    height: 24px;
+    top: 3px;
+    left: 774px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .desktop .nav-link {
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #e6e6e6;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .desktop .nav-link:hover {
+    color: #c68e00;
+  }
+  
+  .desktop .nav-link.active {
+    color: #c68e00;
+  }
+  
+  .desktop .body {
+    position: absolute;
+    width: 2095px;
+    height: 1490px;
+    top: 0;
+    left: 478px;
+  }
+  
+  .desktop .overlap-group {
+    position: relative;
+    width: 1700px;
+    height: 1080px;
+    top: 131px;
+  }
+  
+  .desktop .pattern {
+    position: absolute;
+    width: 1261px;
+    height: 1080px;
+    top: 0;
+    left: 439px;
+    object-fit: cover;
+  }
+  
+  .desktop .buttons {
+    position: absolute;
+    width: 1241px;
+    height: 872px;
+    top: 22px;
+    left: 0;
+  }
+  
+  .desktop .div-wrapper {
+    position: absolute;
+    width: 306px;
+    height: 71px;
+    top: 801px;
+    left: 933px;
+    background-color: #c68e00;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .desktop .div-wrapper:hover {
+    background-color: #e6a700;
+  }
+  
+  .desktop .text-wrapper-3 {
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #081e3d;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .images-photoroom {
+    position: absolute;
+    width: 86px;
+    height: 84px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .desktop .text {
+    position: absolute;
+    width: 962px;
+    height: 587px;
+    top: 230px;
+    left: 631px;
+  }
+  
+  .desktop .overlap-2 {
+    position: relative;
+    width: 958px;
+    height: 587px;
+  }
+  
+  .desktop .p {
+    position: absolute;
+    width: 958px;
+    top: 0;
+    left: 0;
+    font-family: "Inter", Helvetica;
+    font-weight: 700;
+    color: #e6e6e6;
+    font-size: 94px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .abandono-de-c-es-nas {
+    position: absolute;
+    top: 480px;
+    left: 18px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #e6e6e6;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
